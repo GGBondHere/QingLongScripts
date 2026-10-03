@@ -1,0 +1,57 @@
+# Python 运行缓存和测试产物（任意层级）
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# 本地研究、测试、抓包与开发过程记录：保留本机，不公开、不订阅
+.local/
+.superpowers/
+tests/
+notes/
+captures/
+*.har
+*.saz
+*.pcap
+*.pcapng
+
+# 凭证和账号配置（适用于根目录及任意子目录）
+.env
+.env.*
+!.env.example
+config.json
+auth.json
+token.json
+tokens.json
+cookies.json
+credentials.json
+secrets.json
+state.json
+.subscription.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 虚拟环境、IDE、系统文件、日志与备份
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*.backup
+*.zip
+*.7z
+
+# 防止遗留抓包分析脚本和下载的前端资源误提交
+analyze_*har*.py
+index-*.js

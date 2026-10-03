@@ -1,0 +1,5 @@
+# 全部子脚本的 Python 依赖合集；按需在青龙「依赖管理 → Python3」安装。
+# 本仓库不在签到脚本或订阅初始化中自动执行 pip。
+requests
+ecdsa
+curl_cffi
